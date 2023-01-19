@@ -1,2 +1,2 @@
 # Project Alloy
- This if the Project Alloy Modpack
+ This is for the Project Alloy Modpack
