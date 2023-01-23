@@ -11,6 +11,17 @@
         "value": 10000000
       }
     },
+    "allomancy:nicrosil": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -22,14 +33,25 @@
         "value": 10000000
       }
     },
-    "apotheosis:mining_speed": {
+    "cosmere:tin": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "surgebinding:tension": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
         "value": 10000000
       }
     },
@@ -44,25 +66,69 @@
         "value": 10000000
       }
     },
-    "apotheosis:arrow_velocity": {
+    "allomancy:bendalloy": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 20,
         "value": 10000000
       }
     },
-    "forge:nametag_distance": {
+    "feruchemy:brass": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 64,
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "hemalurgy:spiritweb_integrity": {
+      "enabled": false,
+      "min": {
+        "default": -16,
+        "value": -16
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "surgebinding:abrasion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "feruchemy:nicrosil": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:cadmium": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
         "value": 10000000
       }
     },
@@ -77,58 +143,58 @@
         "value": 10000000
       }
     },
-    "biomemakeover:projectile_resistance": {
+    "feruchemy:atium": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 30,
+        "default": 20,
         "value": 10000000
       }
     },
-    "minecraft:generic.attack_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "apotheosis:cold_damage": {
+    "feruchemy:gold": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 20,
         "value": 10000000
       }
     },
-    "minecraft:generic.attack_damage": {
-      "enabled": true,
+    "surgebinding:gravitation": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2048,
+        "default": 10,
         "value": 10000000
       }
     },
-    "apotheosis:draw_speed": {
+    "feruchemy:bronze": {
       "enabled": false,
       "min": {
-        "default": 1,
-        "value": 1
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 4,
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:pewter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
         "value": 10000000
       }
     },
@@ -143,47 +209,25 @@
         "value": 10000000
       }
     },
-    "minecraft:generic.armor": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 40,
-        "value": 10000000
-      }
-    },
-    "apotheosis:crit_damage": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "apotheosis:ghost_health": {
+    "surgebinding:transportation": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 10,
         "value": 10000000
       }
     },
-    "minecraft:generic.flying_speed": {
-      "enabled": true,
+    "allomancy:aluminum": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 20,
         "value": 10000000
       }
     },
@@ -198,80 +242,80 @@
         "value": 10000000
       }
     },
-    "apotheosis:life_steal": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "apotheosis:arrow_damage": {
+    "allomancy:cadmium": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 20,
         "value": 10000000
       }
     },
-    "minecraft:generic.movement_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "apotheosis:fire_damage": {
+    "allomancy:bronze": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 20,
         "value": 10000000
       }
     },
-    "minecraft:generic.max_health": {
-      "enabled": true,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "apotheosis:piercing": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 2,
-        "value": 10000000
-      }
-    },
-    "hemalurgy:tin": {
+    "feruchemy:copper": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1,
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:copper": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "surgebinding:division": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "allomancy:zinc": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "cosmere:copper": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
         "value": 10000000
       }
     },
@@ -283,50 +327,6 @@
       },
       "max": {
         "default": 1,
-        "value": 10000000
-      }
-    },
-    "apotheosis:current_hp_damage": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 2,
-        "value": 10000000
-      }
-    },
-    "apotheosis:overheal": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "apotheosis:crit_chance": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "minecraft:horse.jump_strength": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
         "value": 10000000
       }
     },
@@ -352,6 +352,380 @@
         "value": 10000000
       }
     },
+    "minecraft:generic.armor_toughness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:electrum": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:tin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:chromium": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 10000000
+      }
+    },
+    "surgebinding:cohesion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "allomancy:chromium": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "biomemakeover:projectile_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 10000000
+      }
+    },
+    "allomancy:brass": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_damage": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 10000000
+      }
+    },
+    "cosmere:atium": {
+      "enabled": false,
+      "min": {
+        "default": 0.10000000149011612,
+        "value": 0.10000000149011612
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "surgebinding:progression": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "feruchemy:tin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:iron": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.armor": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 10000000
+      }
+    },
+    "surgebinding:adhesion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "surgebinding:transformation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "allomancy:electrum": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:atium": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:duralumin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.flying_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "feruchemy:pewter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:iron": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:duralumin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:steel": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "feruchemy:bendalloy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "surgebinding:illumination": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "feruchemy:aluminum": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.movement_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.max_health": {
+      "enabled": true,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "feruchemy:zinc": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "allomancy:steel": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "minecraft:horse.jump_strength": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.knockback_resistance": {
       "enabled": true,
       "min": {
@@ -363,18 +737,7 @@
         "value": 10000000
       }
     },
-    "minecraft:generic.armor_toughness": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 30,
-        "value": 10000000
-      }
-    },
-    "hemalurgy:copper": {
+    "allomancy:gold": {
       "enabled": false,
       "min": {
         "default": 0,

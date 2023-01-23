@@ -8,6 +8,7 @@
   "maxPacketsPerSecond": 20,
   "packetSize": 16384,
   "testIfSpaceEmpty": false,
+  "paintingsHaveCollision": false,
   "maxUserImageWidth": 4096,
   "maxUserImageHeight": 4096,
   "maxUserImages": 1000,

@@ -67,7 +67,7 @@ to make editing this file much easier.
 						"item": "byg:white_puffball_spores",
 						"max_uses": 4,
 						"number_of_items": 5,
-						"villager_xp": 3
+						"villager_xp": 2
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -76,7 +76,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:crimson_fungus",
 						"max_uses": 12,
-						"villager_xp": 3
+						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -85,7 +85,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:warped_fungus",
 						"max_uses": 12,
-						"villager_xp": 3
+						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -94,7 +94,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:sythian_fungus",
 						"max_uses": 12,
-						"villager_xp": 3
+						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -127,7 +127,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:imparius_mushroom",
 						"max_uses": 12,
-						"villager_xp": 4
+						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -136,7 +136,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:shulkren_fungus",
 						"max_uses": 12,
-						"villager_xp": 4
+						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -145,11 +145,18 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:fungal_imparius",
 						"max_uses": 12,
-						"villager_xp": 4
+						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				}
 			]
+		},
+		"cosmere:metal_trader": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
 		},
 		"immersiveengineering:electrician": {
 			"1": [],
@@ -455,62 +462,6 @@ to make editing this file much easier.
 			"3": [],
 			"4": [],
 			"5": []
-		},
-		"morevillagers:enderian": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:engineer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:florist": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:hunter": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:miner": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:netherian": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:oceanographer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:woodworker": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
 		}
 	},
 	// Whether this file appends villager/wandering trader trades.
@@ -642,7 +593,7 @@ to make editing this file much easier.
 			{
 				"config": {
 					"emerald_cost": 5,
-					"item": "byg:jacaranda_sapling",
+					"item": "byg:lament_sapling",
 					"max_uses": 12,
 					"number_of_items": 1,
 					"villager_xp": 2
@@ -662,7 +613,7 @@ to make editing this file much easier.
 			{
 				"config": {
 					"emerald_cost": 5,
-					"item": "byg:lament_sapling",
+					"item": "byg:jacaranda_sapling",
 					"max_uses": 12,
 					"number_of_items": 1,
 					"villager_xp": 2
@@ -682,17 +633,7 @@ to make editing this file much easier.
 			{
 				"config": {
 					"emerald_cost": 5,
-					"item": "byg:mangrove_sapling",
-					"max_uses": 12,
-					"number_of_items": 1,
-					"villager_xp": 2
-				},
-				"type": "byg:items_for_emeralds"
-			},
-			{
-				"config": {
-					"emerald_cost": 5,
-					"item": "byg:maple_sapling",
+					"item": "byg:white_mangrove_sapling",
 					"max_uses": 12,
 					"number_of_items": 1,
 					"villager_xp": 2
@@ -713,6 +654,16 @@ to make editing this file much easier.
 				"config": {
 					"emerald_cost": 5,
 					"item": "byg:silver_maple_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:maple_sapling",
 					"max_uses": 12,
 					"number_of_items": 1,
 					"villager_xp": 2

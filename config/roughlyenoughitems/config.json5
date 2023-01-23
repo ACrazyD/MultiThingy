@@ -1,12 +1,6 @@
 {
 	"basics": {
-		"favorites": [
-			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
-			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
-			"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",
-			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
-			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}"
-		],
+		"favorites": [],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
@@ -136,16 +130,16 @@
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "ORIGINAL",
+		"recipeScreenType": "UNSET",
 		// Declares the appearance of REI windows.
-		"theme": "DARK",
+		"theme": "LIGHT",
 		"layout": {
 			// Declares the position of the search field.
 			"searchFieldLocation": "CENTER",
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"showCraftableOnlyButton": false
+			"showCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",
@@ -165,7 +159,7 @@
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
 		// Declares whether mob effects should be on the left side instead of the right side.
-		"leftSideMobEffects": true,
+		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true,
