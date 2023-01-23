@@ -1,13 +1,20 @@
 // priority: 0
 
-console.info('Hello, World! (You will only see this line once in console, during startup)')
+settings.logAddedRecipes = true
+settings.logRemovedRecipes = true
+settings.logSkippedRecipes = false
+settings.logErroringRecipes = true
 
-StartupEvents.registry('item', event => {
-	// Register new items here
-	// event.create('example_item').displayName('Example Item')
+console.info('Hello, World! (You will see this line every time server resources reload)')
+
+onEvent('recipes', event => {
+	// Change recipes here
 })
 
-StartupEvents.registry('block', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+onEvent('item.tags', event => {
+	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
+	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
+
+	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
+	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })
