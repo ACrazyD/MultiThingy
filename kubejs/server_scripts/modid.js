@@ -1,5 +1,4 @@
 // priority: 0
-
 console.info('Loading Your Shorthands.')
 
 

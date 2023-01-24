@@ -1,23 +1,17 @@
 // priority: 0
-
-settings.logAddedRecipes = true
-settings.logRemovedRecipes = true
-settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
-
 console.info('Tagging Your Everything...')
 
-onEvent('item.tags', e => {
+ServerEvents.tags('item', e => {
 
-//end of item.tags
+//end of item
 })
 
-onEvent('block.tags', e => {
+ServerEvents.tags('block', e => {
 	
-//end of block.tags
+//end of block
 })
 
-onEvent('fluid.tags', e => {
+ServerEvents.tags('fluid', e => {
 
-//End of fluid.tags
+//End of fluid.
 })
